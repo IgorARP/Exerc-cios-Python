@@ -6,6 +6,6 @@ idade = input("Qual sua idade?")
 idadeFuturo = int(idade) + 5
 
 #Exibe resultados do código
-print("Seu nome é : " + nome)
-print("Seu nome tem: " + str(len(nome)) + " letras !")
-print("Daqui a 5 anos voce tera:" + str(idadeFuturo) + "anos!" )
+print(f"Seu nome é : {nome}")
+print(f"Seu nome tem:  {(len(nome))} letras !")
+print(f"Daqui a 5 anos voce tera: {(int(idade) + 5)}anos!" )
